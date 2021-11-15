@@ -13,3 +13,6 @@ export AUR_PAGER="$HOME/.config/scripts/aurpager.sh"
 if [ "$(tty)" = "/dev/tty1" ]; then
 	startx
 fi
+
+export EDITOR=/usr/bin/nvim
+export VISUAL=/usr/bin/nvim
